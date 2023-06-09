@@ -1,0 +1,10 @@
+// downlaod and unzip
+// đổi client id và api key (line 36 and 37)
+(trong trang console cloud (Authorized js origins => URL1 =  http://localhost and Authorized redirect urls = (example) http://localhost/20200845/))
+// folder name: 20200845, sau đó, paste vào \Apache24\htdocs.
+// open browser, truy nhập địa chỉ http://localhost/20200845/
+// login with gamil account ==> ( choose ur account + click Advanced + click Go to login with javascript + click continue)
+// bấm list message để xem danh sách và nội dung chi tiết
+// send mail ( nếu mail có file đính kèm thì send hơi chậm, phải chờ trong vài second )
+// click Refresh nếu muốn thay đổi account gmail của bạn
+// click sign out, nếu muốn thoát ra

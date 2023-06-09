@@ -1,0 +1,71 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 20px;
+}
+#content{
+    margin-top: 20px;
+    white-space: pre-wrap;
+    background-color: aqua;
+    padding: 2px;
+}
+.login_button{
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px darkblue;
+    font-size: 16px;
+}
+.login_button:hover{
+    transform: scale(1.04);
+    background-color: midnightblue;
+    color: aliceblue;
+}
+.signOut_button{
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px darkblue;
+    background-color: darkgrey;
+    font-size: 16px;
+}
+.signOut_button:hover{
+    transform: scale(1.04);
+    background-color: red;
+    color: aliceblue;
+}
+input, textarea{
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+}
+.send{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: rgb(18, 39, 80);
+    color: aliceblue;
+}
+.send:hover{
+    transform: scale(1.03);
+    background-color: goldenrod;
+    color: black;
+}
+.list .list_btn{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: skyblue;
+}
+.list .list_btn:hover{
+    transform: scale(1.03);
+    background-color: darkgreen;
+    color: white;
+}
+.error-message {
+    color: red;
+}
